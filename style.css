@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efeaea;
+}
+h1 h2 h3 h4 h5{
+    margin: 0 auto;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    /*border: 2px solid red; */
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #c0c0c0;
+
+}
+.logo{
+    float: left;
+    margin-top: 24px;
+}
+.menu{
+    float: right;
+}
+.menu p{
+    color: gray;
+    margin-left: 438px;
+    
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: orange;
+    font-weight: bold;
+}
+.slider{
+    /*border: 2px solid red;*/
+    width: 100%;
+    background-image: url(img/slide_background.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.slider h1{
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size:55px;
+}
+.slider_img1{
+    float: right;
+    margin-top: 12px;
+}
+.slider_img2{
+    float: right;
+    margin-top: 58px;
+    padding-top: 15px;
+}
+.slider_last{
+    display: inline-block;
+    background-color: black;
+}
+.slider_last h4{
+    color: white;
+}
+.slider_last h3{
+    color: orange;
+    margin-top: -45px;
+    margin-left: 188px;
+}
+.about_wrapper {
+    min-height: 270px;
+    width: 960px;
+    margin: 0 auto;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.about_us {
+    min-height: 270px;
+    width: 250px;
+    float: left;
+    font-family: arial;
+    padding: 22px 0px;
+    font-size: 10px;
+     padding-right: 11%;
+    position: relative;
+}
+
+.about_us img{
+    float: left;
+    margin-top: 6px;
+}
+.about_us p{
+    font-size: 12px;
+    margin-top: 17px;
+}
+
+.our_benefits {
+    min-height: 270px;
+    width: 250px;
+    float: left;
+    font-family: arial;
+    padding: 22px 0px;
+    font-size: 10px;
+        padding-right: 9%;
+}
+.our_benefits p{
+    margin-top: 16px;
+    margin-left: 25px;
+    font-size: 11px;
+}
+.our_benefits img{
+        float: left;
+    margin-top: 17px;
+}
+.testimonials {
+    min-height: 270px;
+    width: 250px;
+    float: left;
+    font-family: arial;
+    padding: 22px 0px;
+    font-size: 10px;
+    position: relative;
+    
+}
+.testimonials p{
+    margin-top: 17px;
+    font-size: 12px;
+}
+.author{
+    position: absolute;
+    color:black;
+    font-style: italic;
+    margin-top: 5px;
+    top: 62%;
+}
+.testimonials img{
+        float: left;
+    margin-top: 6px;
+}
+
+.title {
+    border-bottom: 6px solid black;
+    padding-bottom: 10px
+}
+
+
+
+.sp {
+    position: absolute;
+    color:orange;font-size:12px; font-weight:bold;
+    top: 65%;
+    left: 6%
+}
+
+.portfolio_wrapper {
+    width: 960px;
+    min-height: 270px;
+    margin: 0 auto;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.one {
+    float: left;
+    padding: 16px;
+}
+.one:first-child{
+    padding-left: 0px;
+}
+.one:last-child{
+    padding-right: 0px;
+}
+
+.titt {
+    
+    width: 200px;
+}
+.titt h1{
+    font-size: 20px;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+
+.imgg {
+    float: left;
+    margin-top: 10px;
+}
+
+.blog_updates_wrapper {
+    min-height: 140px;
+    width: 960px;
+    margin: 0 auto;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.blog {
+    margin-top: 20px;
+    width: 65%;
+    font-family: arial;
+    float: left;
+}
+.blog h1{
+    font-size: 14px;
+}
+.blog p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.Contact {
+    margin-top: 20px;
+    width: 20%;
+    font-family: arial;
+    float: left;
+    margin-left: 13%;
+}
+.Contact h1{
+    font-size: 14px;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+
+.tw {
+    float: left;
+    padding: 4px;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+.left ul{
+    list-style: none;
+    padding-top: 20px;
+}
+.left ul li{
+    float: left;
+    text-decoration: none;
+    font-size: 14px;
+    border-left: 1px solid #c0c0c0;
+    padding: 5px;
+}
+
+
+.right {
+    padding-top: 10px;
+        width: 183px;;
+    min-height: 116px;
+    float: right;;
+}
+.right img{
+    width: 122px;
+    height: 70px;
+    float: right;
+}
